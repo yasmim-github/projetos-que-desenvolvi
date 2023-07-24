@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&display=swap');
+
+/*site feito por Stone */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --pink-brand: #c51a78;
+    --light-pink: #ff87ab;
+    --opaque-pink: #f4dbdb;
+    --white-brand: #ffffff;
+    --green-brand: #aec289;
+    --black-brand: #3a0d18;
+}
+
+button {
+    background-color: var(--pink-brand);
+    border-style: none;
+    border-radius: 50px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 var(--green-brand);
+  };
+
+button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 var(--green-brand);
+}
+
+
+header {
+    background-color: var(--light-pink);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.marca img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.filme_barbie {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--white-brand);
+    height: 60vh;
+    background-image: url(img/edite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.filme_barbie button {
+    margin-left: 20px;
+}
+
+.filme_barbie a {
+    font-family: 'Playfair Display';
+    font-size: 15px;
+    color: var(--white-brand);
+    text-decoration: none;
+}
+
+.filme_anuncio {
+    margin-top: 15vh;
+    font-family: 'Playfair Display';
+    white-space: normal;
+    width: 50vw;
+    margin-left: 20px;
+}
+
+.filme_anuncio h1 {
+    font-size: 30px;
+}
+
+.filme_anuncio h2 {
+    font-size: 25px;
+}
+
+.filme_anuncio h1, h2 {
+    line-height: 30px;
+}
+
+.boneca_barbie {
+    background-color: var(--opaque-pink);
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.boneca_barbie p {
+    margin-right: 20px;
+}
+
+.boneca_barbie img {
+    margin-left: 20px;
+    width: 50%;
+    border-radius: 10%;
+}
+
+.boneca_anuncio {
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    padding: 20px;
+}
+
+.boneca_barbie a {
+    font-family: 'Playfair Display';
+    font-size: 15px;
+    color: var(--white-brand);
+    text-decoration: none;
+}
+
+.historia {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--opaque-pink);
+    padding: 20px;
+}
+
+.criadora {
+    border-radius: 20px;
+    padding: 10px;
+    width: 25vw;
+    color: var(--black-brand);
+    font-family: 'Playfair Display';
+}
+
+.criadora img {
+    width: 100%;
+    border-radius: 20%;
+}
+
+.diversidade {
+    border-radius: 20px;
+    padding: 10px;
+    width: 25vw;
+    color: var(--black-brand);
+    font-family: 'Playfair Display';
+}
+
+.diversidade img {
+    width: 100%;
+    border-radius: 20%;
+}
+
+.bilheteria {
+    border-radius: 20px;
+    padding: 10px;
+    height: 50%;
+    width: 25vw;
+    color: var(--black-brand);
+    font-family: 'Playfair Display';
+}
+
+summary {
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+summary:hover {
+    box-shadow: 0 0 1em .25em var(--white-brand),
+        0 0 10px 10px var(--white-brand)
+}
+
+.bilheteria img {
+    width: 100%;
+    border-radius: 20%;
+}
